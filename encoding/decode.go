@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 func decode(command *bot.Cmd) (string, error) {

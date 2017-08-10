@@ -1,8 +1,8 @@
 package url
 
 import (
-	"github.com/go-chat-bot/bot"
-	"github.com/go-chat-bot/plugins/web"
+	"github.com/meleca/bot"
+	"github.com/meleca/plugins/web"
 	"html"
 	"net/url"
 	"regexp"

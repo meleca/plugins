@@ -1,7 +1,7 @@
 package jira
 
 import (
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 	"os"
 	"regexp"
 	"strings"

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 const (

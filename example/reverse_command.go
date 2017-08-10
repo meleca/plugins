@@ -1,7 +1,7 @@
 package example
 
 import (
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 // From stackoverflow: http://stackoverflow.com/a/10030772

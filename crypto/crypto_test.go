@@ -3,7 +3,7 @@ package crypto
 import (
 	"testing"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

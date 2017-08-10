@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"github.com/cloudfoundry/gosigar"
 	"time"
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 func uptime(command *bot.Cmd) (msg string, err error) {

@@ -1,7 +1,7 @@
 package catgif
 
 import (
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 	"net/http"
 )
 

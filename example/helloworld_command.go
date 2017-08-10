@@ -3,7 +3,7 @@ package example
 import (
 	"fmt"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 func hello(command *bot.Cmd) (msg string, err error) {

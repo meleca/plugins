@@ -2,7 +2,7 @@ package godoc
 
 import (
 	"fmt"
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 	. "github.com/smartystreets/goconvey/convey"
 	"net/http"
 	"net/http/httptest"
@@ -13,7 +13,7 @@ const (
 	validResults = `{
     	"results": [
 	        {
-	            "path": "github.com/go-chat-bot/bot",
+	            "path": "github.com/meleca/bot",
 	            "synopsis": "IRC bot written in go"
 	        }
     	]
@@ -57,7 +57,7 @@ func TestGoDoc(t *testing.T) {
 			s, err := search(cmd)
 
 			So(err, ShouldBeNil)
-			So(s, ShouldEqual, "IRC bot written in go http://godoc.org/github.com/go-chat-bot/bot")
+			So(s, ShouldEqual, "IRC bot written in go http://godoc.org/github.com/meleca/bot")
 		})
 
 		Convey("When the query is empty", func() {

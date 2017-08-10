@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 func goodMorning(channel string) (msg string, err error) {

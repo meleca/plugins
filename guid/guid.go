@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	uuid "github.com/beevik/guid"
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 const (

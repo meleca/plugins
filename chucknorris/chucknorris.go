@@ -1,7 +1,7 @@
 package chucknorris
 
 import (
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 	"math/rand"
 	"regexp"
 )

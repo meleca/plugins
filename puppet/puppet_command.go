@@ -3,7 +3,7 @@ package puppet
 import (
 	"strings"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 const (

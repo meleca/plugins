@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 const (

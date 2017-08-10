@@ -3,7 +3,7 @@ package example
 import (
 	"testing"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 func TestHelloworld(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/go-chat-bot/bot"
+	"github.com/meleca/bot"
 )
 
 const (

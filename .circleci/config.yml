@@ -1,0 +1,22 @@
+# Golang CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-go/ for more details
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.8
+
+    working_directory: /go/src/github.com/meleca/plugins
+
+    environment:
+      COVERAGE_DIR: /tmp/coverage-dir
+
+    steps:
+      - checkout
+
+      - run: mkdir -p "${COVERAGE_DIR}"
+      - run: go get -v github.com/mattn/goveralls
+      - run: go get -v -t -d ./...
+      - run: go test -v -cover -race -coverprofile="${COVERAGE_DIR}/coverage.out"
+      - run: goveralls -coverprofile="${COVERAGE_DIR}/coverage.out" -service=circle-ci -repotoken="${COVERALLS_TOKEN}"

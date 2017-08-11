@@ -18,5 +18,5 @@ jobs:
       - run: mkdir -p "${COVERAGE_DIR}"
       - run: go get -v github.com/mattn/goveralls
       - run: go get -v -t -d ./...
-      - run: go test -v -cover -race -coverprofile="${COVERAGE_DIR}/coverage.out"
+      - run: ./test-coverage.sh
       - run: goveralls -coverprofile="${COVERAGE_DIR}/coverage.out" -service=circle-ci -repotoken="${COVERALLS_TOKEN}"

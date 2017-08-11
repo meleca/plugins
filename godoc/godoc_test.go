@@ -13,7 +13,7 @@ const (
 	validResults = `{
     	"results": [
 	        {
-	            "path": "github.com/meleca/bot",
+	            "path": "github.com/go-chat-bot/bot",
 	            "synopsis": "IRC bot written in go"
 	        }
     	]
@@ -57,7 +57,7 @@ func TestGoDoc(t *testing.T) {
 			s, err := search(cmd)
 
 			So(err, ShouldBeNil)
-			So(s, ShouldEqual, "IRC bot written in go http://godoc.org/github.com/meleca/bot")
+			So(s, ShouldEqual, "IRC bot written in go http://godoc.org/github.com/go-chat-bot/bot")
 		})
 
 		Convey("When the query is empty", func() {

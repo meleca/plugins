@@ -70,7 +70,7 @@ func TestGoDoc(t *testing.T) {
 		})
 
 		Convey("When the api is unreachable", func() {
-			godocSearchURL = "127.0.0.1:0"
+			godocSearchURL = "127.0.0.1"
 			cmd.RawArgs = "go-bot"
 
 			_, err := search(cmd)

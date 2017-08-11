@@ -11,7 +11,7 @@ do
         then
             if [ -f $COVERAGE_DIR/coverage.part ]
             then
-                cat $COVERAGE_DIR/coverage.part | grep -v "mode: set" >> $COVERAGE_DIR/coverage.out
+                cat $COVERAGE_DIR/coverage.part | grep -v "mode: atomic" >> $COVERAGE_DIR/coverage.out
             fi
         else
             exit 1

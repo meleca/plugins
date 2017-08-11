@@ -1,4 +1,4 @@
-[![Circle CI](https://circleci.com/gh/go-chat-bot/plugins.svg?style=svg)](https://circleci.com/gh/go-chat-bot/plugins)
+[![CircleCI](https://circleci.com/gh/meleca/plugins/tree/master.svg?style=svg)](https://circleci.com/gh/meleca/plugins/tree/master) [![Coverage Status](https://coveralls.io/repos/github/meleca/plugins/badge.svg?branch=master)](https://coveralls.io/github/meleca/plugins?branch=master)
 
 ### Active
 
